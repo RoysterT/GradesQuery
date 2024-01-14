@@ -1,44 +1,101 @@
-[
-  {
-    "version": "0.1.0",
-    "date": "2024-01-14",
-    "changes": [
+{
+  "code": 200,
+  "msg": "请求成功",
+  "download": "https://oss.iuoyt.com/GradesQuery/Setup-latest.exe",
+  "data": {
+    "log": [
       {
-        "type": "Feature",
-        "description": [
-          "完成了登录界面布局配置",
-          "完成了登录界面的逻辑处理",
-          "完成了顶部菜单栏的布局配置",
-          "完成了顶部菜单栏的显示逻辑处理",
-          "完成了学期成绩查询的基础功能"
+        "version": "0.1.1",
+        "date": "2024-01-14",
+        "changes": [
+          {
+            "type": "Change",
+            "description": [
+              "修改了关于软件的显示内容"
+            ]
+          },
+          {
+            "type": "Feature",
+            "description": [
+              "完成了软件检查更新功能",
+              "完成了更新日志界面的布局配置",
+              "完成了软件更新源的选择配置"
+            ]
+          },
+          {
+            "type": "Fix",
+            "description": [
+              "修复了部分情况下查询学期成绩筛选条件失效的问题"
+            ]
+          },
+          {
+            "type": "Improvement",
+            "description": [
+              "优化了查询学期成绩中部内容的显示逻辑",
+              "优化了查询历史学期成绩页面的现实逻辑",
+              "优化了菜单在不同页面的显示逻辑"
+            ]
+          }
+        ]
+      },
+      {
+        "version": "0.1.0",
+        "date": "2024-01-14",
+        "changes": [
+          {
+            "type": "Feature",
+            "description": [
+              "完成了登录界面布局配置",
+              "完成了登录界面的逻辑处理",
+              "完成了顶部菜单栏的布局配置",
+              "完成了顶部菜单栏的显示逻辑处理",
+              "完成了学期成绩查询的基础功能",
+              "完成了在浏览器中打开教务系统的功能"
+            ]
+          }
+        ]
+      },
+      {
+        "version": "0.0.1",
+        "date": "2024-01-11",
+        "changes": [
+          {
+            "type": "Change",
+            "description": [
+              "Description of the change or modification.",
+              "Description of the change or modification."
+            ]
+          },
+          {
+            "type": "Feature",
+            "description": [
+              "Description of the new feature added.",
+              "Description of the new feature added."
+            ]
+          },
+          {
+            "type": "Fix",
+            "description": [
+              "Description of the bug fix or issue resolution.",
+              "Description of the bug fix or issue resolution."
+            ]
+          },
+          {
+            "type": "Improvement",
+            "description": [
+              "Description of the improvement or enhancement.",
+              "Description of the improvement or enhancement."
+            ]
+          },
+          {
+            "type": "Remove",
+            "description": [
+              "Description of the removed feature or deprecated functionality.",
+              "Description of the removed feature or deprecated functionality."
+            ]
+          }
         ]
       }
     ]
-  },
-  {
-    "version": "0.0.1",
-    "date": "2024-01-11",
-    "changes": [
-      {
-        "type": "Change",
-        "description": "Description of the change or modification."
-      },
-      {
-        "type": "Feature",
-        "description": "Description of the new feature added."
-      },
-      {
-        "type": "Fix",
-        "description": "Description of the bug fix or issue resolution."
-      },
-      {
-        "type": "Improvement",
-        "description": "Description of the improvement or enhancement."
-      },
-      {
-        "type": "Remove",
-        "description": "Description of the removed feature or deprecated functionality."
-      }
-    ]
   }
-]
+}
