@@ -1,0 +1,44 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2024-01-14",
+    "changes": [
+      {
+        "type": "Feature",
+        "description": [
+          "完成了登录界面布局配置",
+          "完成了登录界面的逻辑处理",
+          "完成了顶部菜单栏的布局配置",
+          "完成了顶部菜单栏的显示逻辑处理",
+          "完成了学期成绩查询的基础功能"
+        ]
+      }
+    ]
+  },
+  {
+    "version": "0.0.1",
+    "date": "2024-01-11",
+    "changes": [
+      {
+        "type": "Change",
+        "description": "Description of the change or modification."
+      },
+      {
+        "type": "Feature",
+        "description": "Description of the new feature added."
+      },
+      {
+        "type": "Fix",
+        "description": "Description of the bug fix or issue resolution."
+      },
+      {
+        "type": "Improvement",
+        "description": "Description of the improvement or enhancement."
+      },
+      {
+        "type": "Remove",
+        "description": "Description of the removed feature or deprecated functionality."
+      }
+    ]
+  }
+]
