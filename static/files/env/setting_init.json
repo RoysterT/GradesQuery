@@ -1,0 +1,117 @@
+{
+  "info": "GDUF GradesQuery settings, please do not modify !",
+  "software": {
+    "auto_update": false,
+    "update_panel": "Gitee"
+  },
+  "account": {
+    "auto_login": false,
+    "auto_recognize_code": false
+  },
+  "score_table": {
+    "columns": [
+      {
+        "name": "序号",
+        "example": "2",
+        "value": "courseNum",
+        "display": true
+      },
+      {
+        "name": "开课学期",
+        "example": "2022-2023-2",
+        "value": "courseTerm",
+        "display": true
+      },
+      {
+        "name": "课程编号",
+        "example": "10011001",
+        "value": "courseCode",
+        "display": true
+      },
+      {
+        "name": "课程名称",
+        "example": "形势与政策",
+        "value": "courseName",
+        "display": true
+      },
+      {
+        "name": "期末成绩",
+        "example": "90",
+        "value": "finalScore",
+        "display": true
+      },
+      {
+        "name": "期末成绩比例",
+        "example": "50%",
+        "value": "finalScoreRatio",
+        "display": true
+      },
+      {
+        "name": "期中成绩",
+        "example": "90",
+        "value": "midtermScore",
+        "display": true
+      },
+      {
+        "name": "期中成绩比例",
+        "example": "50%",
+        "value": "midtermScoreRatio",
+        "display": true
+      },
+      {
+        "name": "平时成绩",
+        "example": "90",
+        "value": "usualScore",
+        "display": true
+      },
+      {
+        "name": "平时成绩比例",
+        "example": "50%",
+        "value": "usualScoreRatio",
+        "display": true
+      },
+      {
+        "name": "总成绩",
+        "example": "90",
+        "value": "score",
+        "display": true
+      },
+      {
+        "name": "学分",
+        "example": "2",
+        "value": "credit",
+        "display": true
+      },
+      {
+        "name": "总学时",
+        "example": "64",
+        "value": "totalHours",
+        "display": true
+      },
+      {
+        "name": "绩点",
+        "example": "4.0",
+        "value": "gpa",
+        "display": true
+      },
+      {
+        "name": "考试类型",
+        "example": "考试",
+        "value": "examType",
+        "display": true
+      },
+      {
+        "name": "课程类型",
+        "example": "必修",
+        "value": "courseType",
+        "display": true
+      },
+      {
+        "name": "课程性质",
+        "example": "通识必修课",
+        "value": "courseNature",
+        "display": true
+      }
+    ]
+  }
+}

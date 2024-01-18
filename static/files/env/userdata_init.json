@@ -1,0 +1,12 @@
+{
+  "info": "GDUF account data used for GDUF GradesQuery, please do not modify !",
+  "accounts": [
+    {
+      "username": "",
+      "password": "",
+      "isRememberMe": true,
+      "saveTime": "",
+      "JSESSIONID": ""
+    }
+  ]
+}
