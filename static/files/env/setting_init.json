@@ -1,117 +1,156 @@
 {
-  "info": "GDUF GradesQuery settings, please do not modify !",
   "software": {
-    "auto_update": false,
-    "update_panel": "Gitee"
+    "name": "Èí¼şÉèÖÃ",
+    "items": {
+      "update": {
+        "name": "Èí¼ş¸üĞÂ",
+        "items": {
+          "auto_check_update": {
+            "name": "Æô¶¯Ê±×Ô¶¯¼ì²é¸üĞÂ",
+            "value": false
+          },
+          "check_update_panel": {
+            "name": "¼ì²é¸üĞÂÏßÂ·",
+            "value": "Ä¬ÈÏ",
+            "options": [
+              "Ä¬ÈÏ",
+              "Github",
+              "Cloudflare",
+              "Gitee"
+            ],
+            "button": {
+              "name": "¼ì²é¸üĞÂ",
+              "function": "checkUpdate"
+            }
+          }
+        }
+      }
+    }
   },
   "account": {
-    "auto_login": false,
-    "auto_recognize_code": false
+    "name": "ÕËºÅÉèÖÃ",
+    "items": {
+      "auto_login": {
+        "name": "×Ô¶¯µÇÂ¼",
+        "example": "¿ªÆô¸ÃÏîĞèÒª¹´Ñ¡¡°×Ô¶¯Ê¶±ğÑéÖ¤Âë¡±¼°µÇÂ¼Ò³µÄ¡°¼Ç×¡ÕËºÅÃÜÂë¡±",
+        "value": false
+      },
+      "auto_recognize_code": {
+        "name": "×Ô¶¯Ê¶±ğÑéÖ¤Âë",
+        "value": false
+      }
+    }
   },
   "score_table": {
-    "columns": [
-      {
-        "name": "åºå·",
-        "example": "2",
-        "value": "courseNum",
-        "display": true
-      },
-      {
-        "name": "å¼€è¯¾å­¦æœŸ",
-        "example": "2022-2023-2",
-        "value": "courseTerm",
-        "display": true
-      },
-      {
-        "name": "è¯¾ç¨‹ç¼–å·",
-        "example": "10011001",
-        "value": "courseCode",
-        "display": true
-      },
-      {
-        "name": "è¯¾ç¨‹åç§°",
-        "example": "å½¢åŠ¿ä¸æ”¿ç­–",
-        "value": "courseName",
-        "display": true
-      },
-      {
-        "name": "æœŸæœ«æˆç»©",
-        "example": "90",
-        "value": "finalScore",
-        "display": true
-      },
-      {
-        "name": "æœŸæœ«æˆç»©æ¯”ä¾‹",
-        "example": "50%",
-        "value": "finalScoreRatio",
-        "display": true
-      },
-      {
-        "name": "æœŸä¸­æˆç»©",
-        "example": "90",
-        "value": "midtermScore",
-        "display": true
-      },
-      {
-        "name": "æœŸä¸­æˆç»©æ¯”ä¾‹",
-        "example": "50%",
-        "value": "midtermScoreRatio",
-        "display": true
-      },
-      {
-        "name": "å¹³æ—¶æˆç»©",
-        "example": "90",
-        "value": "usualScore",
-        "display": true
-      },
-      {
-        "name": "å¹³æ—¶æˆç»©æ¯”ä¾‹",
-        "example": "50%",
-        "value": "usualScoreRatio",
-        "display": true
-      },
-      {
-        "name": "æ€»æˆç»©",
-        "example": "90",
-        "value": "score",
-        "display": true
-      },
-      {
-        "name": "å­¦åˆ†",
-        "example": "2",
-        "value": "credit",
-        "display": true
-      },
-      {
-        "name": "æ€»å­¦æ—¶",
-        "example": "64",
-        "value": "totalHours",
-        "display": true
-      },
-      {
-        "name": "ç»©ç‚¹",
-        "example": "4.0",
-        "value": "gpa",
-        "display": true
-      },
-      {
-        "name": "è€ƒè¯•ç±»å‹",
-        "example": "è€ƒè¯•",
-        "value": "examType",
-        "display": true
-      },
-      {
-        "name": "è¯¾ç¨‹ç±»å‹",
-        "example": "å¿…ä¿®",
-        "value": "courseType",
-        "display": true
-      },
-      {
-        "name": "è¯¾ç¨‹æ€§è´¨",
-        "example": "é€šè¯†å¿…ä¿®è¯¾",
-        "value": "courseNature",
-        "display": true
+    "name": "³É¼¨±íÉèÖÃ",
+    "items": {
+      "display": {
+        "name": "ÏÔÊ¾ÄÚÈİ",
+        "items": {
+          "courseNum": {
+            "order": 0,
+            "name": "ĞòºÅ",
+            "example": "2",
+            "value": true
+          },
+          "courseTerm": {
+            "order": 1,
+            "name": "¿ª¿ÎÑ§ÆÚ",
+            "example": "2022-2023-2",
+            "value": true
+          },
+          "courseCode": {
+            "order": 2,
+            "name": "¿Î³Ì±àºÅ",
+            "example": "10011001",
+            "value": true
+          },
+          "courseName": {
+            "order": 3,
+            "name": "¿Î³ÌÃû³Æ",
+            "example": "ĞÎÊÆÓëÕş²ß",
+            "value": true
+          },
+          "finalScore": {
+            "order": 4,
+            "name": "ÆÚÄ©³É¼¨",
+            "example": "90",
+            "value": true
+          },
+          "finalScoreRatio": {
+            "order": 5,
+            "name": "ÆÚÄ©³É¼¨±ÈÀı",
+            "example": "50%",
+            "value": true
+          },
+          "midtermScore": {
+            "order": 6,
+            "name": "ÆÚÖĞ³É¼¨",
+            "example": "90",
+            "value": true
+          },
+          "midtermScoreRatio": {
+            "order": 7,
+            "name": "ÆÚÖĞ³É¼¨±ÈÀı",
+            "example": "50%",
+            "value": true
+          },
+          "usualScore": {
+            "order": 8,
+            "name": "Æ½Ê±³É¼¨",
+            "example": "90",
+            "value": true
+          },
+          "usualScoreRatio": {
+            "order": 9,
+            "name": "Æ½Ê±³É¼¨±ÈÀı",
+            "example": "50%",
+            "value": true
+          },
+          "score": {
+            "order": 10,
+            "name": "×Ü³É¼¨",
+            "example": "90",
+            "value": true
+          },
+          "credit": {
+            "order": 11,
+            "name": "Ñ§·Ö",
+            "example": "2",
+            "value": true
+          },
+          "totalHours": {
+            "order": 12,
+            "name": "×ÜÑ§Ê±",
+            "example": "64",
+            "value": true
+          },
+          "gpa": {
+            "order": 13,
+            "name": "¼¨µã",
+            "example": "4.0",
+            "value": true
+          },
+          "examType": {
+            "order": 14,
+            "name": "¿¼ÊÔÀàĞÍ",
+            "example": "¿¼ÊÔ",
+            "value": true
+          },
+          "courseType": {
+            "order": 15,
+            "name": "¿Î³ÌÀàĞÍ",
+            "example": "±ØĞŞ",
+            "value": true
+          },
+          "courseNature": {
+            "order": 16,
+            "name": "¿Î³ÌĞÔÖÊ",
+            "example": "Í¨Ê¶±ØĞŞ¿Î",
+            "value": true
+          }
+        }
       }
-    ]
+    }
   }
 }
